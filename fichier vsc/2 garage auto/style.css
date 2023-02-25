@@ -1,0 +1,85 @@
+a:hover {
+    color: brown;
+ }   
+    
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Helvetica,system-ui, apple-system, sans-serif
+}
+.header {
+    position: relative;
+    background: cadetblue;
+    padding: 20px;
+    height: auto;
+    
+}
+.header-title {
+    color: rgb(148, 246, 20);
+    font-size: 40px;
+    font-weight: 650;
+    text-align: center;
+
+
+}
+.history{
+    background: rgb(104, 171, 153);
+    padding: 20px;
+    margin: 10px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    font-family: 'roboto,Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: start;
+}
+.header-img {
+    margin: 10px;
+    position: static;
+    padding: 10px 20px;
+    justify-content: center;
+  
+
+}
+.header-nav  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    margin: 20px 0;
+    text-align: center;
+    background: lightcoral;
+}
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+.title-history  {
+    color: rgb(111, 47, 1);
+    letter-spacing: 0.2px;
+}
+.history-p {
+    
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    
+}
+
+.footer-adresse {
+    background: rgb(142, 240, 239,5);
+    padding: 10px 20px;
+    margin: 50px;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
