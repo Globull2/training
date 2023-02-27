@@ -11,31 +11,15 @@ body {
 }
 .header {
     position: relative;
-    background: cadetblue;
+    background:rgb(30, 111, 241);
     padding: 20px;
     height: auto;
-    
 }
 .header-title {
     color: rgb(148, 246, 20);
     font-size: 40px;
     font-weight: 650;
     text-align: center;
-
-
-}
-.history{
-    background: rgb(104, 171, 153);
-    margin: 5px 0 0 0;
-    padding: 15px;
-    line-height: 1.4;
-    letter-spacing: 0.2px;
-    font-family: 'roboto,Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-}
-.history iframe{
-    width: 25%;
-    height: 450px;
 }
 .header-img {
     margin: 10px;
@@ -45,24 +29,29 @@ body {
     align-items: center;
     width: 98%;
     height: 120%;
-    
 }
 .header-nav  {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right:0;
     margin: 20px 0;
     text-align: center;
-    background: lightcoral;
+    background: rgb(240, 128, 128,02);
 }
 .header-nav a:hover {
+    background-color: rgb(20, 17, 241,1);
     text-decoration: underline;
 }
-
-.title-history  {
-    color: rgb(111, 47, 1);
+.history{
+    background: rgb(104, 171, 153);
+    margin: 5px 0 0 0;
+    padding: 15px;
+    line-height: 1.4;
     letter-spacing: 0.2px;
+    font-family: 'roboto,Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;    
+    position: relative;
+}
+.history iframe{
+    width: 25%;
+    height: 450px;
 }
 .history-p {
     
@@ -70,8 +59,12 @@ body {
     font-weight: 350;
     line-height: 1.6;
     letter-spacing: 1px;
-    
 }
+.title-history  {
+    color: rgb(111, 47, 1);
+    letter-spacing: 0.2px;
+}
+
 #service {
     background-color: cadetblue;
     padding: 20px;
@@ -99,6 +92,13 @@ body {
     margin: 5px;
     text-align: center;
 }
+.button{
+    color: aliceblue;
+    background: mediumslateblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0.2em 0.5em;
+}
 .submit {
     border: none;
     color: white;
@@ -109,4 +109,6 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    position: absolute;
+    
   }
