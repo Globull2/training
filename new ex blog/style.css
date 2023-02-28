@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    color: rgba(0, 0 ,0 ,.85);
+    font-family: sans-serif;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: white;
+    padding: 31px 87px;
+}
+
+.topbar nav {
+    float: left;
+
+}
+
+.topbar nav a {
+    color: grey;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 53px;
+}
+.topbar nav a:hover, .topbar nav a.active {
+    color: black;
+}
+
+.social {
+    float: right;
+    
+}
+
+.social a {
+    padding: 12px;
+    opacity: 0.7;
+}
+.social a:hover {
+    opacity: 1;
+}
