@@ -21,7 +21,7 @@ body {
 }
 
 .topbar nav {
-  float: left;
+    float: left;
 }
 
 .topbar nav a {
@@ -59,14 +59,16 @@ body {
     float: left;
     background: grey;
     width: calc(100% - 330px);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 
 .sidebar {
     float: right;
     background: lightgray;
     width: 330px;
     padding: 20px;
-    height: 1631.74px;
+    height: 1634.66px;
 }
 
 .sidebar-title {
@@ -83,6 +85,7 @@ body {
     color: rgb(147, 141, 141);
     text-decoration: none;
     opacity: 0.8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .sidebar ul {
@@ -100,13 +103,38 @@ body {
 
 .article {
     overflow: hidden;
-    padding-left: 30px;
+    padding: 10%;
 }
 
 .article a {
    float: left;
    width: 100%;
    margin-right: 25px;
+}
+
+.article img {
+    height: 700px;
+    width: 600px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.contact-article {
+    background: rgb(244, 244, 139);
+    text-align: center;
+    padding: 20px;
+    height: 1500px;
+}
+
+.contact-article-hr {
+    height: 3px;
+    width: 180px;
+    background: chartreuse;
+}
+
+.contact-article iframe {
+    text-align: center;
+    
 }
 
 .footer {
