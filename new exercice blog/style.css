@@ -11,7 +11,7 @@ body {
 }
 
 .topbar {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -21,9 +21,7 @@ body {
 }
 
 .topbar nav {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+  float: left;
 }
 
 .topbar nav a {
@@ -39,9 +37,8 @@ body {
 }
 
 .social {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    float: right;
+    background: none;
 }
 
 .social a {
@@ -68,7 +65,8 @@ body {
     float: right;
     background: lightgray;
     width: 330px;
-    padding: 50px;
+    padding: 20px;
+    height: 1631.74px;
 }
 
 .sidebar-title {
@@ -92,6 +90,7 @@ body {
     padding: 0;
     list-style: none;
     line-height: 2.3;
+    
 }
 
 .sidebar a:hover {
@@ -101,17 +100,16 @@ body {
 
 .article {
     overflow: hidden;
-    margin: 15px;
+    padding-left: 30px;
 }
 
 .article a {
-    margin: 10px;
-    width: auto;
-    height: auto;
-    display: block;
-    flex-direction: column;
+   float: left;
+   width: 100%;
+   margin-right: 25px;
 }
 
 .footer {
     clear: both;
+    text-align: center;
 }
