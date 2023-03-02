@@ -1,0 +1,14 @@
+* {
+    background: rgb(64, 80, 200);
+    margin: 10px;
+}
+.h1, h2{
+    color: aqua;
+    margin: 30px;
+}
+
+.title-h1-requin {
+    text-align: center;
+    color: aqua;
+}
+
