@@ -6,11 +6,17 @@ a {
     color: #a5b4fc;
 }
 
-h1, p {
-    color: #ff1493 ;
+.header {
+    background-color: white;
 }
 
-.banner {
-    background: linear-gradient(to right,#000046, #1CB5E0);
+.body {
+    background-color: #1F2039;
 }
+
+.footer {
+    background-color: white;
+}
+
+
 

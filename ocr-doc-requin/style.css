@@ -28,3 +28,10 @@
     color: aqua;
 }
 
+.section-1 {
+justify-content: flex-start;
+}
+
+.aside {
+    justify-content: flex-end;
+}
