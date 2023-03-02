@@ -1,5 +1,5 @@
 a {
-    color: black;
+    color: #242424;
 }
 
 .important {
@@ -8,10 +8,19 @@ a {
 
 .header {
     background-color: white;
+    color: black;
 }
 
 .body {
     background-color: #1F2039;
+}
+
+.body, h2, p, ul {
+      color: #F9F8FF;  
+}
+
+.portfolio {
+    background-color: #a5b4fc;
 }
 
 .footer {
