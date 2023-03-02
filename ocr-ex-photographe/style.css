@@ -5,3 +5,12 @@ a {
 .important {
     color: #a5b4fc;
 }
+
+h1, p {
+    color: #ff1493 ;
+}
+
+.banner {
+    background: linear-gradient(to right,#000046, #1CB5E0);
+}
+

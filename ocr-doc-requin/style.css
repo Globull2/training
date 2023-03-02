@@ -1,7 +1,23 @@
 * {
     background: rgb(64, 80, 200);
     margin: 10px;
+
 }
+.navbar {
+    text-align: center;
+     align-items: stretch;
+     position: sticky;
+}
+
+.navbar a {
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    justify-content: space-between;
+    
+}
+
 .h1, h2{
     color: aqua;
     margin: 30px;
