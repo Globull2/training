@@ -11,7 +11,7 @@ body {
     margin: 0;
 }
 
-.topbar {
+header {
     position: sticky;
     top: 0;
     left: 0;
@@ -21,18 +21,18 @@ body {
     padding: 31px 87px;
 }
 
-.topbar nav {
+header nav {
     float: left;
 }
 
-.topbar nav a {
+header nav a {
     color: grey;
     text-decoration: none;
     font-weight: 500;
     margin: 0 53px;
 }
 
-.topbar nav a:hover, .topbar nav a.active {
+header nav a:hover, .topbar nav a.active {
     color: black;
     text-decoration: underline;
 }
@@ -51,7 +51,7 @@ body {
     opacity: 1;
 }
 
-.banniere {
+.banner {
     height: 47vh;
     background: no-repeat center center / cover url("img/image\ font\ header.jpg")
 }
@@ -61,13 +61,13 @@ body {
     background: grey;
     height: 2000px;
     width: calc(100% - 330px);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:satisfy, sans-serif;
 }
 
 .sidebar {
-    justify-content: flex-end;
     float: right;
     background: lightgray;
+    font-family:satisfy, sans-serif;
     width: 330px;
     padding: 20px;
     height: 2000px;
@@ -87,7 +87,7 @@ body {
     color: rgb(147, 141, 141);
     text-decoration: none;
     opacity: 0.8;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:satisfy, sans-serif;
 }
 
 .sidebar ul {
@@ -139,6 +139,18 @@ body {
 .contact-article iframe {
     text-align: center;
     
+}
+
+.iframe-wrapper {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.mail {
+    color: #000000;
+    opacity: 0.85;
+    font-weight: 600;
 }
 
 .footer {
