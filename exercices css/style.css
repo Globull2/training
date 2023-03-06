@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background: rgb(195, 127, 127, 0.6);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;    
+}
+
+header:hover {
+    background:  rgb(195, 127, 127, 0.8);  
+}
+header h1 {
+    font-family: cursive;
+    font-size: 2.5em;
+}
+
+header a {
+    margin: 0 50px 0 0;
+    font-size: 28px;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    background: rgb(1, 84, 33);
+    color: aliceblue;
+}
+
+table {
+    margin-left: 38%; 
+    text-align: center;
+    border: 2px solid blue;
+    flex-wrap: wrap;
+}
+
+td {
+    border: solid black;
+    padding: 25px;
+    background: green;
+} 
+
+th {
+    background: blue;
+}
+
+caption {
+    font-size: 50px;
+    background: gray;
+    font-family: cursive;
+}
+
+.conteneur {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    gap: 50px;
+    z-index: none;
+}
+
+.élément-1 {
+    background: blue;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    order: 1;
+}
+
+.élément-2 {
+    background: gray;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    order: 3;
+}
+
+.élément-3 {
+    background: yellow;
+    height: 100px;
+    order: 2;
+}
+
+.élément-4 {
+    background: green;
+    order: 4;
+}
+
+.élément-5 {
+    background: red;
+    height: 100px;
+    order: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.élément-6 {
+    background: purple;
+    height: 100px;
+    order: 6;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+.élément-7 {
+    background: rgb(0, 213, 255);
+    order: 7;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.élément-8 {
+    background: rgb(153, 118, 199);
+    order: 8;
+}
+
+.élément-9 {
+    background: rgb(68, 94, 23);
+    order: 9;
+}
