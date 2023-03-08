@@ -24,6 +24,9 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
 }
+.your-result p {
+    margin: 0;
+}
 
 h5 {
     color: aliceblue;
@@ -53,7 +56,7 @@ h5 {
 .your-result h1 {
     font-size: 50px;
     margin: 0 0 4px 0;
-    font-weight: bolder;
+    font-weight: 900;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -86,7 +89,7 @@ h5 {
 }
 
 .reaction {
-    background:rgb(255, 87, 87,0.2) ;
+    background:#ff575777 ;
     width: 250px;
     height: 40px;
     margin-left: 20px;
